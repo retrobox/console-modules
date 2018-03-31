@@ -1,5 +1,13 @@
 https://creativecommons.org/licenses/by-nc-sa/3.0/
 
+# Install Websocket : 
+
+wget http://retrobox.happyblocks.info/archives/installwebsocket.sh && chmod +x /home/pi/installwebsocket.sh && /home/pi/installwebsocket.sh
+
+# Install RetroBox library for RetroPie :
+
+wget http://retrobox.happyblocks.info/archives/retroboxinstall.sh && chmod +x /home/pi/installretrobox.sh && /home/pi/installretrobox.sh
+
 __License :__
 https://creativecommons.org/licenses/by-nc-sa/3.0/
 
