@@ -1,5 +1,27 @@
-https://creativecommons.org/licenses/by-nc-sa/3.0/
 
+# RetroBox Console - Git
+<div align="center" color="#0094D2">
+	<img src="https://raw.githubusercontent.com/RetroBox/RetroBox-Artworks/master/retrobox_logo.png" height="200" alt="W" /><br><br>
+    
+    La console retro, open-source !
+</div>
+
+## Install all in one :
+
+```shell
+wget http://retrobox.happyblocks.info/archives/retroboxinstall.sh && chmod +x /home/pi/installretrobox.sh && /home/pi/installretrobox.sh
+```
+# 
+
+### Install Driver screen : 
+```shell
+wget http://retrobox.happyblocks.info/archives/installscreen.sh && chmod +x /home/pi/installscreen.sh && /home/pi/installscreen.sh
+```
+
+### Install Websocket : 
+```shell
+wget http://retrobox.happyblocks.info/archives/installwebsocket.sh && chmod +x /home/pi/installwebsocket.sh && /home/pi/installwebsocket.sh
+```
 __License :__
 https://creativecommons.org/licenses/by-nc-sa/3.0/
 
@@ -7,8 +29,8 @@ https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 __Copyright :__
 
-RetroBox & StoneSet & Wabfall & Pizzacus
+RetroBox & StoneSet & Wabfall & Le_Futuriste & Pizzacus
 
 ~-~
 
-Site officiel : https://retrobox.github.io/
+Site officiel : https://retrobox.tech
