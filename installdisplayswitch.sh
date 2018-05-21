@@ -5,7 +5,7 @@ sudo wget http://retrobox.happyblocks.info/archives/displayswitch.zip
 unzip displayswitch.zip -d /home/pi/displaySwitch
 cd /home/pi/displaySwitch
 sudo cp /home/pi/displaySwitch/10-retropie.sh /etc/profile.d/
-mkdir /home/pi/displayBoot
+sudo mkdir /home/pi/displayBoot
 sudo cp /home/pi/displaySwitch/displayBoot/config_hdmi.txt /home/pi/displayBoot/
 sudo cp /home/pi/displaySwitch/displayBoot/config_lcd.txt /home/pi/displayBoot/
 sudo cp /home/pi/displaySwitch/displayBoot/initDisplay.sh /home/pi/displayBoot/
