@@ -15,7 +15,7 @@ wget http://retrobox.happyblocks.info/archives/retroboxinstall.sh && chmod +x /h
 
 ### Install Driver screen : 
 ```shell
-wget http://retrobox.happyblocks.info/archives/installscreen.sh && chmod +x /home/pi/installscreen.sh && /home/pi/installscreen.sh
+wget http://retrobox.happyblocks.info/archives/displaydriver.sh && chmod +x /home/pi/installscreen.sh && /home/pi/installscreen.sh
 ```
 
 ### Install Websocket : 
