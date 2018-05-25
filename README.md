@@ -25,8 +25,14 @@ wget http://retrobox.happyblocks.info/archives/installwebsocket.sh && chmod +x /
 
 ### Install displaySwitch (HDMI or lcd display) : 
 ```shell
-wget http://retrobox.happyblocks.info/archives/installdisplayswitch.sh
+wget http://retrobox.happyblocks.info/archives/installdisplayswitch.sh && chmod +x /home/pi/installdisplayswitch.sh && /home/pi/installdisplayswitch.sh
 ```
+
+### Install RetroBox theme for RetroPie : 
+```shell
+wget https://github.com/retrobox/overlay/blob/master/installretroboxtheme.sh && chmod +x /home/pi/installretroboxtheme.sh && /home/pi/installretroboxtheme.sh
+```
+
 __License :__
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
