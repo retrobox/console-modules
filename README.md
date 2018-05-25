@@ -30,7 +30,7 @@ wget http://retrobox.happyblocks.info/archives/installdisplayswitch.sh && chmod 
 
 ### Install RetroBox theme for RetroPie : 
 ```shell
-wget https://github.com/retrobox/overlay/blob/master/installretroboxtheme.sh && chmod +x /home/pi/installretroboxtheme.sh && /home/pi/installretroboxtheme.sh
+wget http://retrobox.happyblocks.info/archives/installretroboxtheme.sh && chmod +x /home/pi/installretroboxtheme.sh && /home/pi/installretroboxtheme.sh
 ```
 
 __License :__
