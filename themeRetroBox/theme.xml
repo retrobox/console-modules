@@ -19,7 +19,6 @@ credit:         Logo and Controller artwork by Eric Hettervik
          <pos>0 0</pos>
          <size>1 1</size>
          <path>./_inc/images/space3.png</path>
-         <color>141414</color>
       </image>
    </view>
 
