@@ -10,28 +10,28 @@
 ### Install all in one :
 
 ```bash
-wget http://retrobox.happyblocks.info/archives/retroboxinstall.sh && chmod +x /home/pi/installretrobox.sh && /home/pi/installretrobox.sh
+wget https://static.retrobox.tech/package/retroboxinstall.sh && chmod +x /home/pi/installretrobox.sh && /home/pi/installretrobox.sh
 ```
 #
 
 #### Install Driver screen :
 ```bash
-wget http://retrobox.happyblocks.info/archives/displaydriver.sh && chmod +x /home/pi/installscreen.sh && /home/pi/installscreen.sh
+wget https://static.retrobox.tech/package/displaydriver.sh && chmod +x /home/pi/installscreen.sh && /home/pi/installscreen.sh
 ```
 
 #### Install Websocket :
 ```bash
-wget http://retrobox.happyblocks.info/archives/installwebsocket.sh && chmod +x /home/pi/installwebsocket.sh && /home/pi/installwebsocket.sh
+wget https://static.retrobox.tech/package/installwebsocket.sh && chmod +x /home/pi/installwebsocket.sh && /home/pi/installwebsocket.sh
 ```
 
 #### Install displaySwitch (HDMI or lcd display) :
 ```bash
-wget http://retrobox.happyblocks.info/archives/installdisplayswitch.sh && chmod +x /home/pi/installdisplayswitch.sh && /home/pi/installdisplayswitch.sh
+wget https://static.retrobox.tech/package/installdisplayswitch.sh && chmod +x /home/pi/installdisplayswitch.sh && /home/pi/installdisplayswitch.sh
 ```
 
 #### Install RetroBox theme for RetroPie :
 ```bash
-wget http://retrobox.happyblocks.info/archives/installretroboxtheme.sh && chmod +x /home/pi/installretroboxtheme.sh && /home/pi/installretroboxtheme.sh
+wget https://static.retrobox.tech/package/installretroboxtheme.sh && chmod +x /home/pi/installretroboxtheme.sh && /home/pi/installretroboxtheme.sh
 ```
 #### .bashrc :
 ```bash
