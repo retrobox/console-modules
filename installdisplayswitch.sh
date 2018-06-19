@@ -11,4 +11,5 @@ sudo cp /home/pi/displaySwitch/displayBoot/config_lcd.txt /home/pi/displayBoot/
 sudo cp /home/pi/displaySwitch/displayBoot/initDisplay.sh /home/pi/displayBoot/
 sudo chmod 777 /home/pi/displayBoot/initDisplay.sh
 sudo chmod 777 /etc/profile.d/10-retropie.sh
+sudo rebootS
 echo "$(tput setaf 2)Fin de l'installation de displaySwitch..$(tput sgr0)."

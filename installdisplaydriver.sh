@@ -15,4 +15,5 @@ make
 sudo install fbcp /usr/local/bin/fbcp
 sudo wget https://raw.githubusercontent.com/retrobox/overlay/master/displayDriver/rc.local
 sudo cp /home/pi/rc.local /etc/
+sudo reboot
 echo "$(tput setaf 2)Fin de l'installation...$(tput sgr0)."
