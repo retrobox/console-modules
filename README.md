@@ -2,7 +2,7 @@
 
 # RetroBox Console - Git
 <div align="center" color="#0094D2">
-	<img src="https://stoneset.pw/images/retrobox.jpg" height="200" alt="W" /><br><br>
+	<img src="https://static.retrobox.tech/img/logo/illustration.png" height="180" alt="W" /><br><br>
 
     La console retro, open-source !
 </div>
