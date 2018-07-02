@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "$(tput setaf 1)Installation de displaySwitch... $(tput sgr0)"
 sudo apt-get install unzip
-sudo wget http://retrobox.happyblocks.info/archives/displayswitch.zip
+sudo wget http://static.retrobox.tech/package/displayswitch.zip
 unzip displayswitch.zip -d /home/pi/displaySwitch
 cd /home/pi/displaySwitch
 sudo cp /home/pi/displaySwitch/10-retropie.sh /etc/profile.d/
