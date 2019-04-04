@@ -1,58 +1,81 @@
-# Art Book, an EmulationStation theme
-A simple theme for Emulation Station and RetroPie based on the look of a coffee table book.  
-Discussion is ongoing in this thread: https://retropie.org.uk/forum/topic/11728/new-theme-art-book
+# CRT, an EmulationStation theme with video support
+A simple theme for Emulation Station and RetroPie with support for the video view added by fieldofcows.  Originally based on the Carbon theme by Eric Hettervik; and then rebuilt from scratch so I could learn the theming system for ES.  Discussion ongoing in this thread: https://retropie.org.uk/forum/topic/7022/new-theme-crt-with-support-for-video-preview
+
+---
+
+### Updates
+
+*5/14/2017*
+- Added display of marquee image
+- Cleaned up layout of metadata
+- Added basic styling of carousel
+
+*5/3/2017*
+- Updated CRT Bezel images from PNG to SVG to help with clean scaling on different resolutions
+- Added future support for z-index layering being discussed in this thread - https://retropie.org.uk/forum/topic/9785/z-index-support-for-themes
+
+*4/30/2017*
+- Fixed box art scaling issue on video view
+- Added 4x3 layout option
+- Added display of genre and release date metadata
+- Added backward compatibility check for older versions of retropie without video support
+- Added child friendly ES support
+
+*1/15/2017*
+- Created "CRT Centered" theme variant - https://github.com/anthonycaccese/es-theme-crt-centered
+
+*1/12/2017*
+- Increased the size of boxart displayed on the video view
+- Replaced genre and release date metadata with last played (genre and release date metadata does not appear to be consistent and last played does look like it will be more helpful overall)
+- Tightened up spacing and reordered metadata on detail and video views
+
+---
 
 ## Preview
 
 ### Video Walkthrough
-https://www.youtube.com/watch?v=k_fKUiH_j-8
+https://www.youtube.com/embed/_elwCV5hxeA
 
 ### Screenshots
 
-*Detailed View*
-![Detailed View](http://i.imgur.com/BVkhz56.png)
-
 *Video View*
-![Video View](http://i.imgur.com/7QDFPud.png)
+![Video View](http://i.imgur.com/u8EfhV4.png)
+
+*Detailed View*
+![Detailed View](http://i.imgur.com/Ii6lhrp.png)
 
 *Basic View*
-![Basic View](http://i.imgur.com/YH4oAci.png)
+![Basic View](http://i.imgur.com/wmnw3hn.png)
 
-*System View*
-![System View](http://i.imgur.com/VsXBB6E.png)
+*4x3 Layout*
+![Basic View](http://i.imgur.com/9hqpKPz.png)
+
+[For more images view the album on Imgur](http://imgur.com/a/w7JNT)
+
 
 ## Details
 
-- Full list of supported systems: https://docs.google.com/spreadsheets/d/1gzaP0klzaBaE5_oB1_hQwr46qOmQnacSvSU3o-p5Q7U/edit#gid=0
-- Has many custom themes as well - mario (Super Mario Bros), zelda (Legend of Zelda), megaman, etc... (see "custom themes" tab in the google doc above for the full list) 
-- System, basic, detailed and video views are supported
-- Support for new "All Games", "Favorites", "Last Played" and "Custom Collections" features in latest version of EmulationStation
-- Displays rating, description, # of players, genre, publish date & last played metadata on detailed and video views
-- 16x9 resolutions only (tested at 1280x720 and 1920x1080)
-- Layout designed to support hardware accelerated OMX player on video views
+- Has support for system, basic, detailed and video views
+- Displays the following metadata on detailed and video views: rating, description, # of players, genre, publish date & last played
+- Matching splashscreens are included in the \_inc/images folder
+- 16x9 layout Tested on 720p and 1080p resolutions
+- 4x3 layout tested on 480p/480i resolutions
+
+## How to use
+
+- Requires a Pi2/3 (videos are very choppy on a Pi0/1)
+- Install latest version of retropie through the setup script (versions after 4.1.8 work)
+- Add <video> elements to your gamelist to reference videos for each game on your pi (videos can be stored anywhere just like images)
+
+## Possible Future Updates
+
+- System specific backgrounds that match historical poster designs for a given system (I built an NES example to check out here: http://i.imgur.com/XCx3Tko.png)
+- Grid view support
 
 ## Acknowledgments
 
-- System logos modified from the Carbom theme by Eric Hettervik
-- Controller artwork created by Eric Hettervik from the Carbon theme (see: https://github.com/RetroPie/es-theme-carbon)
-- ChangaOne font by Eduardo Tunni
-- Static.mp4 default video from OldRoom theme by Nismo (see: https://retropie.org.uk/forum/topic/8019/oldroom-theme-w-i-p-new-1-9-beta-media-packs)
-
-## Scraping 
-using selph's scraper: https://github.com/sselph/scraper
-
-### Arcade
-- Run the following commands in an arcade system's folder (i.e. /roms/mame-libretro, /roms/fba): 
-- First Scrape Flyers (from theGamesDB): /opt/retropie/supplementary/scraper/scraper -mame=true -mame_src=gdb,adb,ss -mame_img=fly,b,t,s -max_height=540 -max_width=394 -image_dir=media -image_path=media
-- Then if you want Videos and Marquees (from ScreenScraper) run this: /opt/retropie/supplementary/scraper/scraper -mame=true -mame_src=ss,gdb,adb -download_videos=true -download_marquees=true -image_dir=media -image_path=media -video_dir=media -video_path=media -marquee_dir=media -marquee_path=media
-
-### Console
-
-- Run this command in a system's folder (i.e. /roms/nes): /opt/retropie/supplementary/scraper/scraper -console_src=ss -max_height=540 -max_width=505 -download_videos=true -download_marquees=true -image_dir=media -image_path=media -video_dir=media -video_path=media -marquee_dir=media -marquee_path=media -use_nointro_name=false 
-- Other Notes: 
-- If you only want images (no video/marquee) then you can modfiy the command to this: /opt/retropie/supplementary/scraper/scraper -console_src=ss -max_height=540 -max_width=505 image_dir=media -image_path=media -use_nointro_name=false 
-- If you want higher quality art, add -img_format=png to the end of the command (that will download pngs instead of jpgs but will also result in larger filesizes - which may add lag if you are on a pi0)
-
-### Game & Watch
-
-- Run this command in the /roms/gameandwatch folder: /opt/retropie/supplementary/scraper/scraper -console_src=ss -console_img=clabel,b,s -img_format=png -max_height=540 -max_width=505 -image_dir=media -image_path=media
+- Inspired by old console poster designs (see: http://imgur.com/J4eeTun and http://imgur.com/Ut0SWfJ for examples) 
+- All Logo graphics are from the default Carbom theme made by Eric Hettervik (see: https://github.com/RetroPie/es-theme-carbon/)
+- Static.mp4 default video from OldRoom theme by Nismo (see: https://retropie.org.uk/forum/topic/5823/looking-for-testers-for-es-video-preview-on-raspberry-pi/20)
+- Video support possible because of work done by fieldofcows (see: https://retropie.org.uk/forum/topic/4820/video-preview-in-emulationstation)
+- Theme tutorial written by mattrixk was a huge help in learning how to build this (see: https://github.com/RetroPie/RetroPie-Setup/wiki/Creating-Your-Own-EmulationStation-Theme)
