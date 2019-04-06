@@ -1,5 +1,6 @@
 
 
+
 # RetroBox Console - Git
 <div align="center" color="#0094D2">
 	<img src="https://static.retrobox.tech/img/logo/illustration.png" height="180" alt="W" /><br><br>
@@ -7,35 +8,35 @@
     La console retro, open-source !
 </div>
 
-### Install all in one :
+#### Install all in one :
 
 ```bash
-wget https://static.retrobox.tech/package/retroboxinstall.sh && chmod +x /home/pi/installretrobox.sh && /home/pi/installretrobox.sh
+sudo wget -N https://raw.githubusercontent.com/retrobox/console/master/allinone.sh && sudo chmod +x /home/pi/allinone.sh && sudo ./allinone.sh
 ```
 #
 
-#### Install Driver screen :
+##### Install screen driver (for 3.2inch screen) :
 ```bash
-wget https://static.retrobox.tech/package/displaydriver.sh && chmod +x /home/pi/installscreen.sh && /home/pi/installscreen.sh
+sudo wget -N https://raw.githubusercontent.com/retrobox/console/master/installdisplaydriver.sh && sudo chmod +x /home/pi/installscreen.sh && sudo ./installscreen.sh
 ```
 
-#### Install Websocket :
+##### Install Websocket :
 ```bash
-wget https://static.retrobox.tech/package/installwebsocket.sh && chmod +x /home/pi/installwebsocket.sh && /home/pi/installwebsocket.sh
+sudo wget -N https://raw.githubusercontent.com/retrobox/console/master/installwebsocket.sh && sudo chmod +x /home/pi/installwebsocket.sh && sudo ./installwebsocket.sh
 ```
 
-#### Install displaySwitch (HDMI or lcd display) :
+##### Install displaySwitch (HDMI or lcd display) :
 ```bash
-wget https://static.retrobox.tech/package/installdisplayswitch.sh && chmod +x /home/pi/installdisplayswitch.sh && /home/pi/installdisplayswitch.sh
+sudo wget -N https://raw.githubusercontent.com/retrobox/console/master/installdisplayswitch.sh && sudo chmod +x /home/pi/installdisplayswitch.sh && sudo ./installdisplayswitch.sh
 ```
 
-#### Install RetroBox theme for RetroPie :
+##### Install RetroBox theme for RetroPie :
 ```bash
-wget https://static.retrobox.tech/package/installretroboxtheme.sh && chmod +x /home/pi/installretroboxtheme.sh && /home/pi/installretroboxtheme.sh
+sudo wget -N https://raw.githubusercontent.com/retrobox/console/master/installretroboxtheme.sh && sudo chmod +x /home/pi/installretroboxtheme.sh && sudo ./installretroboxtheme.sh
 ```
-#### .bashrc :
+##### .bashrc (New MOTD when you login with SSH, based on RetroPie script) :
 ```bash
-New MOTD when you login with SSH, based on RetroPie script
+sudo wget -N https://raw.githubusercontent.com/retrobox/console/master/installbashrc.sh && sudo chmod +x /home/pi/installbashrc.sh && sudo ./installbashrc.sh
 ```
 __License :__
 
