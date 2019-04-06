@@ -23,3 +23,4 @@ dtoverlay=waveshare32b:rotate=270,speed=35000000,fps=60
 
 arm_freq=1050
 gpu_freq=310
+#lcd_on
