@@ -2,15 +2,12 @@
 echo "$(tput setaf 1)Installation de displaySwitch... $(tput sgr0)"
 cd /home/pi/
 sudo apt-get update
-sudo apt-get install unzip
-sudo wget http://static.retrobox.tech/package/displayswitch.zip
-unzip displayswitch.zip -d /home/pi/displaySwitch
-cd /home/pi/displaySwitch
-sudo cp /home/pi/displaySwitch/10-retropie.sh /etc/profile.d/
+sudo git clone --recursive --depth 1 "https://github.com/retrobox/console-modules/" "/home/pi/console-modules/"
+sudo \cp -r /home/pi/console-modules/displaySwitch/10-retropie.sh /etc/profile.d/
 sudo mkdir /home/pi/displayBoot
-sudo cp /home/pi/displaySwitch/displayBoot/config_hdmi.txt /home/pi/displayBoot/
-sudo cp /home/pi/displaySwitch/displayBoot/config_lcd.txt /home/pi/displayBoot/
-sudo cp /home/pi/displaySwitch/displayBoot/initDisplay.sh /home/pi/displayBoot/
+sudo cp /home/pi/console-modules/displaySwitch/displaySwitch/displayBoot/config_hdmi.txt /home/pi/displayBoot/
+sudo cp /home/pi/console-modules/displaySwitch/displaySwitch/displayBoot/config_lcd.txt /home/pi/displayBoot/
+sudo cp /home/pi/console-modules/displaySwitch/displaySwitch/displayBoot/initDisplay.sh /home/pi/displayBoot/
 sudo chmod 777 /home/pi/displayBoot/initDisplay.sh
 sudo chmod 777 /etc/profile.d/10-retropie.sh
 cd /home/pi/

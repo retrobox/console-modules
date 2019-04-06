@@ -1,7 +1,7 @@
 
 
 
-# RetroBox Console - Git
+# RetroBox Console - Modules
 <div align="center" color="#0094D2">
 	<img src="https://static.retrobox.tech/img/logo/illustration.png" height="180" alt="W" /><br><br>
 
