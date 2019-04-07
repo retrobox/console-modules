@@ -1,6 +1,7 @@
 <theme>
    <formatVersion>4</formatVersion>
 
+<!-- CRT Theme -->
    <view name="system,basic,detailed,video">
       <helpsystem name="help">
          <pos>1 1</pos>
@@ -47,215 +48,215 @@
       </view>
    </feature>
 
-   <view name="basic,detailed,video">
-      <image name="logo">
-         <origin>0.5 0</origin>
-         <pos>0.5 0.0694444444444444</pos>
-         <maxSize>0.234375 0.0555555555555556</maxSize>
-      </image>
-      <textlist name="gamelist">
-         <pos>0.1875 0.180555555555556</pos>
-         <size>0.625 0.708333333333333</size>
-         <selectorColor>1c1c1caa</selectorColor>
-         <selectedColor>bba358</selectedColor>
-         <primaryColor>eaeaea</primaryColor>
-         <secondaryColor>eaeaea</secondaryColor>
-         <fontPath>./../fonts/Montserrat-Medium.ttf</fontPath>
-         <fontSize>0.0375</fontSize>
-         <forceUppercase>1</forceUppercase>
-         <scrollSound>./../sounds/select.wav</scrollSound>
-         <alignment>center</alignment>
-      </textlist>
-   </view>
+<!-- Flat dark theme-->
 
-   <view name="detailed,video">
-      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, md_developer, md_publisher, md_playcount">
-         <pos>1 1</pos>
-      </text>
-      <datetime name="md_releasedate">
-         <pos>1 1</pos>
-      </datetime>
-      <text name="md_description,md_lastplayed,md_lbl_lastplayed,md_lbl_players,md_players,md_releasedate,md_genre">
-         <color>555555</color>
-         <fontPath>./../fonts/Montserrat-Medium.ttf</fontPath>
-         <fontSize>0.0222222222222222</fontSize>
-      </text>
+   <view name="detailed, video">
 
-      <rating name="md_rating">
-         <pos>0.2015625 0.5888888888888889</pos>
-         <size>0.2515625 0.0277777777777778</size>
-         <filledPath>./../images/star_filled.svg</filledPath>
-         <unfilledPath>./../images/star_empty.svg</unfilledPath>
-      </rating>
-      <image name="md_hidden">
-         <origin>0 0</origin>
-         <pos>0.390625 0.5888888888888889</pos>
-         <maxSize>0.02109375 0.0277777777777778</maxSize>
-         <path>./../images/hidden.svg</path>
-         <color>bba35880</color>
-      </image>
-      <image name="md_kidgame">
-         <origin>0 0</origin>
-         <pos>0.4171875 0.5888888888888889</pos>
-         <maxSize>0.0125 0.0277777777777778</maxSize>
-         <path>./../images/kid.svg</path>
-         <color>bba35880</color>
-      </image>
-      <image name="md_favorite">
-         <origin>0 0</origin>
-         <pos>0.43515625 0.5888888888888889</pos>
-         <maxSize>0.01796875 0.0277777777777778</maxSize>
-         <path>./../images/favorite.svg</path>
-         <color>bba35880</color>
-      </image>
+     <image name="background">
+       <pos>0 0</pos>
+       <origin>0 0</origin>
+       <size>1 1</size>
+       <path>./assets/template_detailed.png</path>
+     </image>
 
-      <image name="md_lbl_lastplayed_slash" extra="true">
-         <origin>0 0</origin>
-         <pos>0.2015625 0.6444444444444444</pos>
-         <maxSize>0.00703125 0.0277777777777778</maxSize>
-         <path>./../images/metadata.svg</path>
-      </image>
-      <text name="md_lbl_lastplayed">
-         <pos>0.21015625 0.6444444444444444</pos>
-         <size>0.07109375 0.0277777777777778</size>
-      </text>
-      <datetime name="md_lastplayed">
-         <pos>0.28125 0.6444444444444444</pos>
-         <size>0.1171875 0.0277777777777778</size>
-      </datetime>
+     <text name="md_lbl_rating">
+       <pos>0.014 0.159</pos>
+     </text>
 
-      <image name="md_lbl_players_slash" extra="true">
-         <origin>0 0</origin>
-         <pos>0.2015625 0.6861111111111111</pos>
-         <maxSize>0.00703125 0.0277777777777778</maxSize>
-         <path>./../images/metadata.svg</path>
-      </image>
-      <text name="md_lbl_players">
-         <pos>0.21015625 0.6861111111111111</pos>
-         <size>0.04765625 0.0277777777777778</size>
-      </text>
-      <text name="md_players">
-         <pos>0.2578125 0.6861111111111111</pos>
-         <size>0.028125 0.0277777777777778</size>
-      </text>
+     <text name="md_lbl_players">
+       <pos>0.014 0.252</pos>
+     </text>
 
-      <image name="md_releasedate_slash" extra="true">
-         <origin>0 0</origin>
-         <pos>0.2859375 0.6861111111111111</pos>
-         <maxSize>0.00703125 0.0277777777777778</maxSize>
-         <path>./../images/metadata.svg</path>
-      </image>
-      <datetime name="md_releasedate">
-         <pos>0.29453125 0.6861111111111111</pos>
-         <size>0.07578125 0.0277777777777778</size>
-      </datetime>
+     <text name="md_players">
+       <pos>0.014 0.292</pos>
+     </text>
 
-      <image name="md_genre_slash" extra="true">
-         <origin>0 0</origin>
-         <pos>0.3703125 0.6861111111111111</pos>
-         <maxSize>0.00703125 0.0277777777777778</maxSize>
-         <path>./../images/metadata.svg</path>
-      </image>
-      <text name="md_genre">
-         <pos>0.37890625 0.6861111111111111</pos>
-         <size>0.07421875 0.0277777777777778</size>
-      </text>
+     <text name="md_lbl_genre">
+       <pos>0.014 0.368</pos>
+     </text>
 
-      <text name="md_description">
-         <pos>0.2015625 0.7416666666666667</pos>
-         <size>0.2515625 0.1472222222222222</size>
-         <color>999999</color>
-         <fontSize>0.025</fontSize>
-      </text>
+     <text name="md_genre">
+       <pos>0.014 0.408</pos>
+     </text>
 
-      <textlist name="gamelist">
-         <pos>0.546875 0.180555555555556</pos>
-         <size>0.29375 0.708333333333333</size>
-         <alignment>left</alignment>
-         <horizontalMargin>0.00625</horizontalMargin>
-      </textlist>
+     <text name="md_lbl_developer">
+       <pos>0.014 0.48</pos>
+     </text>
+
+     <text name="md_developer">
+       <pos>0.014 0.52</pos>
+     </text>
+
+     <datetime name="md_releasedate">
+       <color>c9c9c9</color>
+       <pos>0.014 0.627</pos>
+     </datetime>
+
+     <text name="md_lbl_releasedate">
+       <color>c9c9c9</color>
+       <pos>0.014 0.585</pos>
+     </text>
+
+     <text name="md_lbl_playcount">
+       <pos>0.014 0.697</pos>
+     </text>
+
+     <text name="md_playcount">
+       <pos>0.014 0.737</pos>
+     </text>
+
+     <datetime name="md_lbl_lastplayed">
+       <pos>1 1</pos>
+     </datetime>
+
+     <datetime name="md_lastplayed">
+       <pos>1 1</pos>
+     </datetime>
+
+     <text name="md_lbl_publisher">
+       <pos>1 1</pos>
+     </text>
+
+     <text name="md_publsher">
+       <pos>1 1</pos>
+     </text>
+
+     <text name="md_description">
+       <color>c9c9c9</color>
+       <forceUppercase>0</forceUppercase>
+       <fontPath>./../fonts/Montserrat-Medium.ttf</fontPath>
+       <fontSize>0.025</fontSize>
+       <size>0.185 0.3</size>
+       <pos>0.256 0.55</pos>
+     </text>
+
+     <image name="logo">
+       <pos>0 0</pos>
+       <origin>0 0</origin>
+       <size>0.173 0.116</size>
+     </image>
+
+     <textlist name="gamelist">
+       <selectedColor>ffffff</selectedColor>
+       <primaryColor>c9c9c9</primaryColor>
+       <secondaryColor>c9c9c9</secondaryColor>
+       <fontPath>./../fonts/Montserrat-Medium.ttf</fontPath>
+       <fontSize>0.03</fontSize>
+       <forceUppercase>0</forceUppercase>
+       <pos>0.487 0.214</pos>
+       <size>0.423 0.6</size>
+       <alignment>left</alignment>
+       <horizontalMargin>0.01</horizontalMargin>
+     </textlist>
+
+     <rating name="md_rating">
+       <pos>0.014 0.207</pos>
+       <size>0.035 0.035</size>
+       <filledPath>./../images/star_filled_spacing.svg</filledPath>
+       <unfilledPath>./../images/star_hollow_3_spacing.svg</unfilledPath>
+     </rating>
+
+     <text name="md_rating, md_developer, md_genre, md_players, md_playcount, md_description, md_releasedate">
+       <color>c9c9c9</color>
+       <forceUppercase>0</forceUppercase>
+       <fontPath>./../fonts/Montserrat-Medium.ttf</fontPath>
+       <fontSize>0.03</fontSize>
+     </text>
+
+     <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+       <color>c9c9c9</color>
+       <forceUppercase>0</forceUppercase>
+       <fontPath>./../fonts/Montserrat-Medium.ttf</fontPath>
+       <fontSize>0.03</fontSize>
+     </text>
+
+     <text name="md_lbl_players">
+ 			<pos>0.014 0.252</pos>
+ 		</text>
+
+ 		<text name="md_players">
+ 			<pos>0.014 0.292</pos>
+ 		</text>
+
+ 		<text name="md_lbl_genre">
+ 			<pos>0.014 0.368</pos>
+ 		</text>
+
+ 		<text name="md_genre">
+ 			<pos>0.014 0.408</pos>
+ 		</text>
+
+ 		<text name="md_lbl_developer">
+ 			<pos>0.014 0.48</pos>
+ 		</text>
+
+ 		<text name="md_developer">
+ 			<pos>0.014 0.52</pos>
+ 		</text>
+
+ 		<datetime name="md_releasedate">
+ 			<color>c9c9c9</color>
+ 			<pos>0.014 0.627</pos>
+ 		</datetime>
+
+ 		<text name="md_lbl_releasedate">
+ 			<color>c9c9c9</color>
+ 			<pos>0.014 0.585</pos>
+ 		</text>
+
+ 		<text name="md_lbl_playcount">
+ 			<pos>0.014 0.697</pos>
+ 		</text>
+
+ 		<text name="md_playcount">
+ 			<pos>0.014 0.737</pos>
+ 		</text>
+
+ 		<datetime name="md_lbl_lastplayed">
+ 			<pos>1 1</pos>
+ 		</datetime>
+
+ 		<datetime name="md_lastplayed">
+ 			<pos>1 1</pos>
+ 		</datetime>
+
+ 		<text name="md_lbl_publisher">
+ 			<pos>1 1</pos>
+ 		</text>
+
+ 		<text name="md_publsher">
+ 			<pos>1 1</pos>
+ 		</text>
+
    </view>
 
    <view name="detailed">
-      <image name="crt-bezel" extra="true">
-         <origin>0.5 0.5</origin>
-         <pos>0.32734375 0.3666666666666667</pos>
-         <maxSize>0.2671875 0.3638888888888889</maxSize>
-         <path>./../images/crt-bezel.svg</path>
-      </image>
-      <image name="md_image">
-         <origin>0.5 0.5</origin>
-         <pos>0.32734375 0.3666666666666667</pos>
-         <maxSize>0.25 0.3333333333333333</maxSize>
-      </image>
-      <image name="crt-screen" extra="true">
-         <origin>0.5 0.5</origin>
-         <pos>0.32734375 0.3666666666666667</pos>
-         <maxSize>0.25 0.3333333333333333</maxSize>
-         <path>./../images/crt-screen.svg</path>
-      </image>
+
+     <image name="md_image">
+       <pos>0.254 0.202</pos>
+       <maxSize>0.185 0.327</maxSize>
+       <origin>0 0</origin>
+     </image>
+
    </view>
 
-   <feature supported="video">
-      <view name="video">
-         <image name="crt-bezel" extra="true">
-            <origin>0.5 0.5</origin>
-            <pos>0.32734375 0.3666666666666667</pos>
-            <maxSize>0.2671875 0.3638888888888889</maxSize>
-            <path>./../images/crt-bezel.svg</path>
-         </image>
-         <image name="md_image">
-            <origin>1 1</origin>
-            <pos>0.46484375 0.55</pos>
-            <maxSize>0.1015625 0.1805555555555556</maxSize>
-         </image>
-         <image name="md_marquee">
-            <origin>0 1</origin>
-            <pos>0.18984375 0.55</pos>
-            <maxSize>0.1015625 0.1805555555555556</maxSize>
-         </image>
-         <video name="md_video">
-            <origin>0.5 0.5</origin>
-            <pos>0.32734375 0.3666666666666667</pos>
-            <maxSize>0.25 0.3333333333333333</maxSize>
-            <delay>0.5</delay>
-            <default>./../videos/static.mp4</default>
-            <showSnapshotNoVideo>false</showSnapshotNoVideo>
-            <showSnapshotDelay>false</showSnapshotDelay>
-         </video>
-      </view>
-   </feature>
+    <feature supported="video">
 
-   <feature supported="z-index">
-      <view name="detailed,video">
-         <image name="crt-bezel" extra="true">
-            <zIndex>100</zIndex>
-         </image>
-         <image name="md_image">
-            <zIndex>80</zIndex>
-         </image>
-         <image name="crt-screen" extra="true">
-            <origin>0.5 0.5</origin>
-            <pos>0.32734375 0.3666666666666667</pos>
-            <maxSize>0.25 0.3333333333333333</maxSize>
-            <path>./../images/crt-screen.svg</path>
-            <zIndex>60</zIndex>
-         </image>
-      </view>
-      <view name="video">
-         <image name="md_image">
-            <zIndex>120</zIndex>
-         </image>
-         <image name="md_marquee">
-            <zIndex>120</zIndex>
-         </image>
-         <image name="crt-bezel" extra="true">
-            <zIndex>100</zIndex>
-         </image>
-         <video name="md_video">
-            <zIndex>80</zIndex>
-         </video>
-      </view>
-   </feature>
+     <image name="md_marquee">
+       <origin>0 0</origin>
+       <pos>0.800 0.01</pos>
+       <maxSize>0.19 0.10</maxSize>
+     </image>
 
+     <video name="md_video">
+       <pos>0.254 0.202</pos>
+       <origin>0 0</origin>
+       <size>0.185 0.327</size>
+       <delay>0.0</delay>
+       <default>./../images/static.mp4</default>
+       <showSnapshotNoVideo>false</showSnapshotNoVideo>
+       <showSnapshotDelay>false</showSnapshotDelay>
+     </video>
+
+   </feature>
 </theme>
