@@ -11,7 +11,7 @@
 #### Install all in one :
 
 ```bash
-sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules-modules/master/allinone.sh && sudo chmod +x /home/pi/allinone.sh && sudo ./allinone.sh
+sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/allinone.sh && sudo chmod +x /home/pi/allinone.sh && sudo ./allinone.sh
 ```
 #
 
