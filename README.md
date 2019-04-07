@@ -30,10 +30,16 @@ sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/i
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installdisplayswitch.sh && sudo chmod +x /home/pi/installdisplayswitch.sh && sudo ./installdisplayswitch.sh
 ```
 
-##### Install RetroBox theme for RetroPie :
+##### Install RetroBox theme for RetroPie (HDMI version) :
 ```bash
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installretroboxtheme.sh && sudo chmod +x /home/pi/installretroboxtheme.sh && sudo ./installretroboxtheme.sh
 ```
+
+##### Install RetroBox theme for RetroPie (Small screen version) :
+```bash
+sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installretroboxsmalltheme.sh && sudo chmod +x /home/pi/installretroboxsmalltheme.sh && sudo ./installretroboxsmalltheme.sh
+```
+
 ##### .bashrc (New MOTD when you login with SSH, based on RetroPie script) :
 ```bash
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installbashrc.sh && sudo chmod +x /home/pi/installbashrc.sh && sudo ./installbashrc.sh
