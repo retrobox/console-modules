@@ -25,7 +25,7 @@ sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/i
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installwebsocket.sh && sudo chmod +x /home/pi/installwebsocket.sh && sudo ./installwebsocket.sh
 ```
 
-##### Install displaySwitch (HDMI or lcd display) :
+##### Install displaySwitch (HDMI or lcd display) + automatic theme change based on screen resolution :
 ```bash
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installdisplayswitch.sh && sudo chmod +x /home/pi/installdisplayswitch.sh && sudo ./installdisplayswitch.sh
 ```
@@ -39,6 +39,12 @@ sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/i
 ```bash
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installbashrc.sh && sudo chmod +x /home/pi/installbashrc.sh && sudo ./installbashrc.sh
 ```
+
+##### Install the driver of inputs (Joysticks etc) :
+```bash
+sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installinputsdriver.sh && sudo chmod +x /home/pi/installinputsdriver.sh && sudo ./installinputsdriver.sh
+```
+
 __License :__
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.

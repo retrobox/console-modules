@@ -17,6 +17,7 @@ cd build/
 cmake ..
 make
 sudo install fbcp /usr/local/bin/fbcp
+cd /home/pi/
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/displayDriver/rc.local
 sudo cp /home/pi/rc.local /etc/
 cd /home/pi/
