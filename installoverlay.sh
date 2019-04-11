@@ -6,6 +6,10 @@ echo "installing unzip util..."
 
 sudo apt install -y unzip
 
+echo "installing json (jq) util..."
+
+sudo apt install -y jq
+
 echo "installing overlay..."
 
 cd ~
