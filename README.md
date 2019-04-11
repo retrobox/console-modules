@@ -46,6 +46,15 @@ sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/i
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installinputsdriver.sh && sudo chmod +x /home/pi/installinputsdriver.sh && sudo ./installinputsdriver.sh
 ```
 
+##### Install splashscreen :
+```bash
+sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installsplashscreen.sh && sudo chmod +x /home/pi/installsplashscreen.sh && sudo ./installsplashscreen.sh
+```
+
+##### Install all config (config.txt & cmdline.txt) :
+```bash
+sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installbootconfig.sh && sudo chmod +x /home/pi/installbootconfig.sh && sudo ./installbootconfig.sh
+```
 __License :__
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
