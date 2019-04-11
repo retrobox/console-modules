@@ -1,6 +1,3 @@
-
-
-
 # RetroBox Console - Modules
 <div align="center" color="#0094D2">
 	<img src="https://static.retrobox.tech/img/logo/illustration.png" height="180" alt="W" /><br><br>
@@ -13,16 +10,20 @@
 ```bash
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/allinone.sh && sudo chmod +x /home/pi/allinone.sh && sudo ./allinone.sh
 ```
-#
+#### Install the overlay :
+```bash
+sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/overlay.sh && sudo chmod +x /home/pi/overlay.sh && sudo ./overlay.sh
+```
+-----
 
 ##### Install screen driver (for 3.2inch screen) :
 ```bash
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installdisplaydriver.sh && sudo chmod +x /home/pi/installdisplaydriver.sh && sudo ./installdisplaydriver.sh
 ```
 
-##### Install Websocket :
+##### Install Node JS (10.15) :
 ```bash
-sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installwebsocket.sh && sudo chmod +x /home/pi/installwebsocket.sh && sudo ./installwebsocket.sh
+sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installnode.sh && sudo chmod +x /home/pi/installnode.sh && sudo ./installnode.sh
 ```
 
 ##### Install displaySwitch (HDMI or lcd display) + automatic theme change based on screen resolution :
