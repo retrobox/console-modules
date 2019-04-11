@@ -2,6 +2,7 @@
 
 # require node to be installed
 # require zip and json gnome utils
+echo "installing overlay..."
 
 cd ~
 rm -R ~/overlay
@@ -17,3 +18,5 @@ mv ~/overlay/$array/* ~/overlay
 rm -R ~/overlay/$array
 cd ~/overlay
 npm i
+
+echo "overlay installed"
