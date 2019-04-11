@@ -4,7 +4,7 @@ cd /home/pi/
 sudo rm -r -f /home/pi/mkjoystick/
 mkdir mkjoystick
 cd mkjoystick
-wget -N https://github.com/recalbox/mk_arcade_joystick_rpi/releases/download/v0.1.4/install.sh
+sudo wget -N https://github.com/recalbox/mk_arcade_joystick_rpi/releases/download/v0.1.5/install.sh
 sudo sh ./install.sh
 sudo rm -r -f /home/pi/console-modules/
 sudo git clone --recursive --depth 1 "https://github.com/retrobox/console-modules/" "/home/pi/console-modules/"

@@ -9,7 +9,8 @@ gpu_mem_512=256
 gpu_mem_1024=256
 
 overscan_scale=1
-
+disable_splash=1
+avoid_warnings=1
 #lcd_off
 arm_freq=1025
 gpu_freq=325
