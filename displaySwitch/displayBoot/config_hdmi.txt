@@ -4,10 +4,6 @@
 dtparam=audio=on
 dtparam=spi=on
 
-gpu_mem_256=128
-gpu_mem_512=256
-gpu_mem_1024=256
-
 overscan_scale=1
 disable_splash=1
 avoid_warnings=1
