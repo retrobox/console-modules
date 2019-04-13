@@ -26,7 +26,7 @@ sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/i
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installnode.sh && sudo chmod +x /home/pi/installnode.sh && sudo ./installnode.sh
 ```
 
-##### Install displaySwitch (HDMI or lcd display) + automatic theme change based on screen resolution :
+##### Install displaySwitch (HDMI or lcd display) + automatic theme change based on screen resolution (needs retroboxtheme to work) :
 ```bash
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installdisplayswitch.sh && sudo chmod +x /home/pi/installdisplayswitch.sh && sudo ./installdisplayswitch.sh
 ```
@@ -56,7 +56,7 @@ sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/i
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installbootconfig.sh && sudo chmod +x /home/pi/installbootconfig.sh && sudo ./installbootconfig.sh
 ```
 
-##### Install all config (config.txt & cmdline.txt) :
+##### Install loading games splashscreen :
 ```bash
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installloadinggames.sh && sudo chmod +x /home/pi/installloadinggames.sh && sudo ./installloadinggames.sh
 ```
