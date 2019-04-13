@@ -12,7 +12,7 @@ sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/a
 ```
 #### Install the overlay :
 ```bash
-sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/overlay.sh && sudo chmod +x /home/pi/overlay.sh && sudo ./overlay.sh
+sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installoverlay.sh && sudo chmod +x /home/pi/installoverlay.sh && sudo ./installoverlay.sh
 ```
 -----
 
