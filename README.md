@@ -12,7 +12,7 @@ sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/a
 ```
 #### Install the overlay :
 ```bash
-sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/overlay.sh && sudo chmod +x /home/pi/overlay.sh && sudo ./overlay.sh
+sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installoverlay.sh && sudo chmod +x /home/pi/installoverlay.sh && sudo ./installoverlay.sh
 ```
 -----
 
@@ -26,7 +26,7 @@ sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/i
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installnode.sh && sudo chmod +x /home/pi/installnode.sh && sudo ./installnode.sh
 ```
 
-##### Install displaySwitch (HDMI or lcd display) + automatic theme change based on screen resolution :
+##### Install displaySwitch (HDMI or lcd display) + automatic theme change based on screen resolution (needs retroboxtheme to work) :
 ```bash
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installdisplayswitch.sh && sudo chmod +x /home/pi/installdisplayswitch.sh && sudo ./installdisplayswitch.sh
 ```
@@ -55,6 +55,12 @@ sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/i
 ```bash
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installbootconfig.sh && sudo chmod +x /home/pi/installbootconfig.sh && sudo ./installbootconfig.sh
 ```
+
+##### Install loading games splashscreen :
+```bash
+sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installloadinggames.sh && sudo chmod +x /home/pi/installloadinggames.sh && sudo ./installloadinggames.sh
+```
+
 __License :__
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
