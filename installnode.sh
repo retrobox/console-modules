@@ -11,7 +11,7 @@ rm node.tar.xz
 PATHNODE=$(find ~/nodeinstall -mindepth 1 -maxdepth 1 -type d)
 echo $PATHNODE
 sudo mv $PATHNODE ~/nodeinstall/node
-#sudo cp -R  ~/nodeinstall/node/* /usr/local/
+sudo cp -R  ~/nodeinstall/node/* /usr/local/
 echo "Node installed!"
 echo "Npm version:" $(npm -v)
 echo "Node version:" $(node -v)
