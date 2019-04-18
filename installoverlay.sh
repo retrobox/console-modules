@@ -1,18 +1,66 @@
+#!/bin/sh
+
+# verify if the script is launch as root
+if [ "$(whoami)" != "root" ]; then
+  echo "E: Not root"
+  echo "(Please rerun this script with the root user)"
+  exit
+fi
+
+# verify if npm or node is installed
+
+whichNode=$(which node)
+whichNpm=$(which npm)
+
+if [ "$whichNode" != "/usr/local/bin/node" ]; then
+  echo ""
+  echo "E: Node is not installed"
+  exit
+fi
+if [ "$whichNpm" != "/usr/local/bin/npm" ]; then
+  echo ""
+  echo "E: Npm is not installed"
+  exit
+fi
+
+echo "At least node and npm are installed"
+
 # install the overlay by downloading the latest tag version from github
 
 # require node to be installed
 # require zip and json gnome utils
-echo " "
-echo "Installing unzip util..."
-echo " "
 
-sudo apt install -y unzip
+whichUnzip=$(which unzip)
 
+if [ "$whichUnzip" != "/usr/bin/unzip" ]; then
+  echo ""
+  echo "Installing unzip util..."
+  echo ""
+  sudo apt install -y unzip
+fi
+
+echo "unzip is installed"
+
+whichJq=$(which jq)
+
+if [ "$whichJq" != "/usr/bin/jq" ]; then
+  echo ""
+  echo "Installing json util (jq)..."
+  echo ""
+  sudo apt install -y jq
+fi
+
+echo "jq is installed"
+
+if [ "$(which forever)" != "/usr/bin/forever" ]; then
+  echo ""
+  echo "Installing forever..."
+  echo ""
+  npm install --global pm2
+fi
+
+echo "Forever is installed"
 echo ""
-echo "Installing json (jq) util..."
-echo ""
-
-sudo apt install -y jq
 
 echo ""
 echo "Installing overlay..."
@@ -69,3 +117,5 @@ echo "Overlay installed"
 
 tput sgr0
 echo ""
+
+# at this point the overlay is installed in /root/overlay
