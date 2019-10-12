@@ -1,0 +1,212 @@
+<theme>
+   <formatVersion>4</formatVersion>
+
+<!-- CRT Theme -->
+   <view name="system,basic,detailed,video">
+      <helpsystem name="help">
+         <pos>1 1</pos>
+         <textColor>777777</textColor>
+         <iconColor>77777750</iconColor>
+      </helpsystem>
+
+      <image name="background" extra="true">
+        <tile>true</tile>
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+        <size>1 1</size>
+        <path>./../images/box.png</path>
+        <color>1e2426</color>
+      </image>
+   </view>
+
+   <feature supported="carousel">
+      <view name="system">
+         <carousel name="systemcarousel">
+            <type>horizontal</type>
+            <color>ecf0f1</color>
+         </carousel>
+
+         <image name="background-info" extra="true">
+          <origin>0 0</origin>
+          <pos>0 0.6</pos>
+          <size>1 0.075</size>
+          <path>./../images/gradient.png</path>
+          </image>
+
+          <image name="overlay" extra="true">
+            <!-- Right Aligned at Top -->
+            <origin>0 0</origin>
+            <pos>0.315 0.15</pos>
+            <maxSize>0.37 0.13</maxSize>
+            <path>./../images/retrobox.png</path>
+          </image>
+
+         <text name="systemInfo">
+            <color>ecf0f1</color>
+            <fontPath>./../fonts/Montserrat-Medium.ttf</fontPath>
+         </text>
+      </view>
+   </feature>
+
+<!-- Flat dark theme-->
+
+   <view name="detailed, video">
+
+     <image name="background-console" extra="true">
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <size>1 0.116</size>
+      <path>./../images/gradient.png</path>
+      </image>
+
+      <image name="retrobox-logo" extra="true">
+       <origin>0 0</origin>
+       <pos>0.88 -0.03</pos>
+       <size>0.1 0.175</size>
+       <path>./../images/retrobox-alone.png</path>
+       </image>
+
+      <image name="background-description" extra="true">
+        <tile>true</tile>
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+        <size>0.173 1</size>
+        <path>./../images/box.png</path>
+        <color>000000</color>
+      </image>
+
+      <text name="md_rating, md_developer, md_genre, md_players, md_playcount, md_description, md_releasedate">
+        <color>c9c9c9</color>
+        <forceUppercase>0</forceUppercase>
+        <fontPath>./../fonts/Montserrat-Medium.ttf</fontPath>
+        <fontSize>0.03</fontSize>
+      </text>
+
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+        <color>c9c9c9</color>
+        <forceUppercase>0</forceUppercase>
+        <fontPath>./../fonts/Montserrat-Medium.ttf</fontPath>
+        <fontSize>0.0375</fontSize>
+      </text>
+
+     <text name="md_lbl_rating">
+       <pos>0.014 0.159</pos>
+     </text>
+
+     <rating name="md_rating">
+       <pos>0.014 0.219</pos>
+       <size>0.035 0.035</size>
+       <filledPath>./../images/star_filled_spacing.svg</filledPath>
+       <unfilledPath>./../images/star_hollow_3_spacing.svg</unfilledPath>
+     </rating>
+
+     <text name="md_lbl_players">
+       <pos>0.014 0.269</pos>
+     </text>
+
+     <text name="md_players">
+       <pos>0.014 0.309</pos>
+     </text>
+
+     <text name="md_lbl_genre">
+       <pos>0.014 0.359</pos>
+     </text>
+
+     <text name="md_genre">
+       <pos>0.014 0.399</pos>
+     </text>
+
+     <text name="md_lbl_developer">
+       <pos>0.014 0.449</pos>
+     </text>
+
+     <text name="md_developer">
+       <pos>0.014 0.489</pos>
+     </text>
+
+     <text name="md_lbl_releasedate">
+       <color>c9c9c9</color>
+       <pos>0.014 0.585</pos>
+     </text>
+
+     <datetime name="md_releasedate">
+       <color>c9c9c9</color>
+       <pos>0.014 0.627</pos>
+     </datetime>
+
+     <text name="md_lbl_playcount">
+       <pos>0.014 0.697</pos>
+     </text>
+
+     <text name="md_playcount">
+       <pos>0.014 0.737</pos>
+     </text>
+
+     <datetime name="md_lbl_lastplayed">
+       <pos>1 1</pos>
+     </datetime>
+
+     <datetime name="md_lastplayed">
+       <pos>1 1</pos>
+     </datetime>
+
+     <image name="logo">
+       <pos>0 0</pos>
+       <origin>0 0</origin>
+       <size>0.173 0.116</size>
+     </image>
+
+     <text name="md_description">
+       <color>c9c9c9</color>
+       <forceUppercase>0</forceUppercase>
+       <fontPath>./../fonts/Montserrat-Medium.ttf</fontPath>
+       <fontSize>0.025</fontSize>
+       <size>0.25 0.35</size>
+       <pos>0.2 0.55</pos>
+     </text>
+
+     <textlist name="gamelist">
+       <selectedColor>ffffff</selectedColor>
+       <primaryColor>c9c9c9</primaryColor>
+       <secondaryColor>c9c9c9</secondaryColor>
+       <fontPath>./../fonts/Montserrat-Medium.ttf</fontPath>
+       <fontSize>0.045</fontSize>
+       <forceUppercase>0</forceUppercase>
+       <pos>0.487 0.159</pos>
+       <size>0.5 0.6</size>
+       <alignment>left</alignment>
+       <horizontalMargin>0.01</horizontalMargin>
+     </textlist>
+
+   </view>
+
+   <view name="detailed">
+
+     <image name="md_image">
+       <pos>0.2 0.159</pos>
+       <maxSize>0.25 0.4</maxSize>
+       <origin>0 0</origin>
+     </image>
+
+   </view>
+
+    <feature supported="video">
+
+     <image name="md_marquee">
+       <origin>0 0</origin>
+       <pos>0.800 0.01</pos>
+       <maxSize>0.19 0.10</maxSize>
+     </image>
+
+     <video name="md_video">
+       <pos>0.254 0.202</pos>
+       <origin>0 0</origin>
+       <size>0.185 0.327</size>
+       <delay>0.0</delay>
+       <default>./../images/static.mp4</default>
+       <showSnapshotNoVideo>false</showSnapshotNoVideo>
+       <showSnapshotDelay>false</showSnapshotDelay>
+     </video>
+
+   </feature>
+</theme>

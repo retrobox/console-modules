@@ -1,0 +1,12 @@
+# CONFIG RETROBOX
+
+# Enable audio (loads snd_bcm2835)
+dtparam=audio=on
+dtparam=spi=on
+
+overscan_scale=1
+disable_splash=1
+avoid_warnings=1
+#lcd_off
+arm_freq=1025
+gpu_freq=325
