@@ -1,9 +1,13 @@
+
 # RetroBox Console - Modules
 <div align="center" color="#0094D2">
 	<img src="https://static.retrobox.tech/img/logo/illustration.png" height="180" alt="W" /><br><br>
 
     La console retro, open-source !
 </div>
+
+
+## ⚠ Only for the v3.06 !
 
 #### Install all in one :
 
@@ -19,6 +23,11 @@ sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/i
 ##### Install screen driver (for 3.2inch screen) :
 ```bash
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/installdisplaydriver.sh && sudo chmod +x /home/pi/installdisplaydriver.sh && sudo ./installdisplaydriver.sh
+```
+
+##### Install audio driver (MAX98357) :
+```bash
+curl -sS https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/i2samp.sh | bash
 ```
 
 ##### Install Node JS (10.15) :

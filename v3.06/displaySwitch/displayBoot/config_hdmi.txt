@@ -1,7 +1,7 @@
 # CONFIG RETROBOX
 
 # Enable audio (loads snd_bcm2835)
-dtparam=audio=on
+#dtparam=audio=on
 dtparam=spi=on
 
 overscan_scale=1
