@@ -1,23 +1,44 @@
 <theme>
-	<formatVersion>4</formatVersion>
-	<include>./../theme.xml</include>
 
-	<view name="system, basic, detailed, video">
+    <formatVersion>4</formatVersion>
+    <include>./../_inc/templates/16x9.xml</include>
+	
+	<!--Ajout du logo du système-->
+    <view name="system, basic, detailed, video">
 		<image name="logo">
 			<path>./_inc/system.svg</path>
 		</image>
+		<textlist name="gamelist">
+			<selectorColor>143952</selectorColor>
+		</textlist>
 	</view>
-
-	<view name="detailed,video">
-	  <text name="md_lbl_players,md_players,md_genre,md_releasedate,md_rating,md_lbl_lastplayed,md_lastplayed">
-         <pos>1 1</pos>
-      </text>
-      <image name="md_lbl_lastplayed_slash,md_lbl_players_slash,md_releasedate_slash,md_genre_slash" extra="true">
-         <pos>1 1</pos>
-      </image>
-      <text name="md_description">
-         <pos>0.2015625 0.5888888888888889</pos>
-      </text>
-    </view>
+	
+	<!--Ajout du gradient background-->
+    <view name="basic">
+		<image name="background_pattern" extra="true">
+			<path>./../_inc/images/bg.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+			<color>aeaeae</color>
+			<tile>false</tile>
+		</image>
+	</view>	
+		
+	<!--Ajout du gradient, le background des métadonnées-->
+    <view name="detailed">
+		<text name="md_developer, md_genre, md_releasedate">
+			<pos>1 1</pos>
+		</text>
+		
+		<image name="background_pattern" extra="true">
+			<path>./../_inc/images/bg-2.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+			<color>aeaeae</color>
+			<tile>false</tile>
+		</image>
+	</view>
 
 </theme>
