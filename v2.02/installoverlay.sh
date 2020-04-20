@@ -62,6 +62,16 @@ fi
 echo "Forever is installed"
 echo ""
 
+if [ "$(which Isof)" != "/usr/bin/Isof" ]; then
+  echo ""
+  echo "Installing Isof..."
+  echo ""
+  sudo apt-get install lsof
+fi
+
+echo "Isof is installed"
+echo ""
+
 echo ""
 echo "Installing overlay..."
 echo ""
