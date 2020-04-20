@@ -5,7 +5,7 @@ sudo apt-get update
 sudo rm -r -f /home/pi/waveshare-dtoverlays/
 git clone https://github.com/swkim01/waveshare-dtoverlays.git
 sudo cp waveshare-dtoverlays/waveshare32b.dtbo /boot/overlays/waveshare32b.dtbo
-sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/displayDriver/config.txt
+sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v3.06/displayDriver/config.txt
 sudo cp /home/pi/config.txt /boot/
 ls /dev/fb*
 sudo apt-get install cmake
@@ -18,7 +18,7 @@ cmake ..
 make
 sudo install fbcp /usr/local/bin/fbcp
 cd /home/pi/
-sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/displayDriver/rc.local
+sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v3.06/displayDriver/rc.local
 sudo cp /home/pi/rc.local /etc/
 cd /home/pi/
 echo "$(tput setaf 2)Fin de l'installation... Redémarrage$(tput sgr0)."

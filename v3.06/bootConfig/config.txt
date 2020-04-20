@@ -1,4 +1,4 @@
-# CONFIG RETROBOX
+# CONFIG RETROBOX V3.06
 
 # Enable audio (loads snd_bcm2835)
 overscan_scale=1

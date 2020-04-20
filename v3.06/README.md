@@ -1,4 +1,4 @@
-# RetroBox Console - Modules for the 3.06v
+# RetroBox Console - Modules for the v3.06
 
 *How to use this repo correctly ?*
 
@@ -15,13 +15,7 @@ If you have a problem with a script, contact us, we will look at the issue (or y
 #### Install all in one :
 
 ```bash
-sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v3.06/allinone.sh && sudo chmod +x /home/pi/allinone.sh && sudo ./allinone.sh
-```
-
-#### Install the overlay :
-
-```bash
-sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v3.06/installoverlay.sh && sudo chmod +x /home/pi/installoverlay.sh && sudo ./installoverlay.sh
+sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/allinone.sh && sudo chmod +x /home/pi/allinone.sh && sudo ./allinone.sh
 ```
 
 -----
@@ -29,13 +23,7 @@ sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v
 ##### Install screen driver (for 3.2inch screen) :
 
 ```bash
-sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v3.06/installdisplaydriver.sh && sudo chmod +x /home/pi/installdisplaydriver.sh && sudo ./installdisplaydriver.sh
-```
-
-##### Install Node JS (10.15) :
-
-```bash
-sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v3.06/installnode.sh && sudo chmod +x /home/pi/installnode.sh && sudo ./installnode.sh
+sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v3.06/installdisplaydriver.sh && sudo chmod +x /home/pi/installdisplaydriver sh && sudo ./installdisplaydriver.sh
 ```
 
 ##### Install displaySwitch (HDMI or lcd display) + automatic theme change based on screen resolution (needs retroboxtheme to work) :
@@ -43,12 +31,6 @@ sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v
 ```bash
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v3.06/installdisplayswitch.sh && sudo chmod +x /home/pi/installdisplayswitch.sh && sudo ./installdisplayswitch.sh
 ```
-
-##### Install RetroBox theme for RetroPie :
-
-```bash
-sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v3.06/installretroboxtheme.sh && sudo chmod +x /home/pi/installretroboxtheme.sh && sudo ./installretroboxtheme.sh
-```  
 
 ##### .bashrc (New MOTD when you login with SSH, based on RetroPie script) :
 
@@ -62,22 +44,10 @@ sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v3.06/installinputsdriver.sh && sudo chmod +x /home/pi/installinputsdriver.sh && sudo ./installinputsdriver.sh
 ```
 
-##### Install splashscreen :
-
-```bash
-sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v3.06/installsplashscreen.sh && sudo chmod +x /home/pi/installsplashscreen.sh && sudo ./installsplashscreen.sh
-```
-
 ##### Install all config (config.txt & cmdline.txt) :
 
 ```bash
 sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v3.06/installbootconfig.sh && sudo chmod +x /home/pi/installbootconfig.sh && sudo ./installbootconfig.sh
-```
-
-##### Install loading games splashscreen :
-
-```bash
-sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v3.06/installloadinggames.sh && sudo chmod +x /home/pi/installloadinggames.sh && sudo ./installloadinggames.sh
 ```
 
 __License :__

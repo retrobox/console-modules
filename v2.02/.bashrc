@@ -98,7 +98,7 @@ function retrobox_welcome() {
 \e[33m      / __ \___  / /__________  / __ )____  _  __
 \e[32m     / /_/ / _ \/ __/ ___/ __ \/ __  / __ \| |/_/
 \e[36m    / _, _/  __/ /_/ /  / /_/ / /_/ / /_/ />  <
-\e[34m   /_/ |_|\___/\__/_/   \____/_____/\____/_/|_|
+\e[34m   /_/ |_|\___/\__/_/   \____/_____/\____/_/|_|   v2.02
 \e[97m
  \e[35m$(date +"%A, %e %B %Y, %r")
  \e[35m$(uname -srmo)
@@ -109,7 +109,7 @@ function retrobox_welcome() {
  \e[31mRunning Processes..: \e[32m$(ps ax | wc -l | tr -d " ")
  \e[31mIP Address.........: \e[32m$(ip route get 8.8.8.8 2>/dev/null | head -1 | cut -d' ' -f8)\e[31m
  \e[31mTemperature........: CPU: \e[32m$cpuTempC\e[31m°C/\e[32m$cpuTempF\e[31m°F GPU: \e[32m$gpuTempC\e[31m°C/\e[32m$gpuTempF\e[31m°F
- \e[31mRetroBox Console V.1, \e[91mhttps://retrobox.tech \e[31mBased on RetroPie
+ \e[31mRetroBox Console V.2.02, \e[91mhttps://retrobox.tech \e[31mBased on RetroPie
 "
 
 }
