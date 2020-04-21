@@ -7,7 +7,7 @@ sudo git clone --recursive --depth 1 "https://github.com/retrobox/console-module
 sudo rm -r -f /home/pi/RetroPie/splashscreens/video/retrobox_splashscreen.mp4
 sudo rm -r -f /home/pi/RetroPie/splashscreens/video/
 mkdir /home/pi/RetroPie/splashscreens/video/
-sudo \cp -r /home/pi/console-modules/all_version/themeRetroBox/retrobox_splashscreen.mp4 /home/pi/RetroPie/splashscreens/video/
+sudo \cp -r /home/pi/console-modules/all_versions/themeRetroBox/retrobox_splashscreen.mp4 /home/pi/RetroPie/splashscreens/video/
 sudo sed -i '1s/.*/\/home\/pi\/RetroPie\/splashscreens\/video\/retrobox_splashscreen.mp4/' /etc/splashscreen.list
 sudo rm -r -f /etc/motd
 sudo touch /etc/motd

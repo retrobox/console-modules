@@ -1,5 +1,7 @@
 # RetroBox Theme
+
 This is the official theme for the RetroBox console, simple and beautiful.
+
 ---
 Install with :
 
@@ -11,7 +13,10 @@ Actually, we need to split into two different folders the theme ? Why ?
 
 - When you connect a HDMI TV/screen into the console, the resolution is higher than the screen on the console, so as we can display more things into a big screen, we have split it to give to the user a full good experience with our console.
 
-If you want to manually the theme, simply put these folders into `/etc/emulationstation/themes/` and if you send files over SFTP, you will need to change the permission of the folder, do that whith : `sudo chmod 777 -R /etc/emulationstation/themes/`
+If you want to manually the theme, simply put these folders into `/etc/emulationstation/themes/` and if you send files over SFTP, you will need to change the permission of the folder, do that with : 
+```bash
+sudo chmod 777 -R /etc/emulationstation/themes/
+```
 
 There is also the splashscreen here, put the file `retrobox_splashscreen` in `/home/pi/RetroPie/splashscreens/video/`.
 

@@ -15,5 +15,4 @@ sudo \cp -r /home/pi/console-modules/v2.02/inputsDriver/opt/retropie/configs/all
 sudo \cp -r -a /home/pi/console-modules/v2.02/inputsDriver/opt/retropie/configs/all/retroarch/autoconfig/. /opt/retropie/configs/all/retroarch/autoconfig/
 sudo \cp -r -a /home/pi/console-modules/v2.02/inputsDriver/opt/retropie/configs/all/retroarch-joypads/. /opt/retropie/configs/all/retroarch-joypads/
 cd /home/pi/
-echo "$(tput setaf 2)Fin de l'installation... Redémarrage$(tput sgr0)."
-sudo reboot
+echo "$(tput setaf 2)Fin de l'installation...$(tput sgr0)."
