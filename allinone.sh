@@ -19,7 +19,7 @@ if [ -f "$FILE" ]; then
         echo "$(tput setaf 2)V2.06 detected, installing proper package...$(tput sgr0)"
         sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/all_versions/installretroboxtheme.sh && sudo chmod +x /home/pi/installretroboxtheme.sh && sudo ./installretroboxtheme.sh
         sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v2.02/installbashrc.sh && sudo chmod +x /home/pi/installbashrc.sh && sudo ./installbashrc.sh
-        sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/all_versions/installnode && sudo chmod +x /home/pi/installnode.sh && sudo ./installnode.sh
+        sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/all_versions/installnode.sh && sudo chmod +x /home/pi/installnode.sh && sudo ./installnode.sh
         sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/all_versions/overlay.sh && sudo chmod +x /home/pi/overlay.sh && sudo ./overlay.sh
         sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v2.02/installinputsdriver.sh && sudo chmod +x /home/pi/installinputsdriver.sh && sudo ./installinputsdriver.sh
         sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v2.02/installdisplaydriver.sh && sudo chmod +x /home/pi/installdisplaydriver.sh && sudo ./installdisplaydriver.sh
@@ -29,7 +29,7 @@ if [ -f "$FILE" ]; then
         echo "$(tput setaf 2)V3.06 detected, installing proper package...$(tput sgr0)"
         sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/all_versions/installretroboxtheme.sh && sudo chmod +x /home/pi/installretroboxtheme.sh && sudo ./installretroboxtheme.sh
         sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v3.06/installbashrc.sh && sudo chmod +x /home/pi/installbashrc.sh && sudo ./installbashrc.sh
-        sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/all_versions/installnode && sudo chmod +x /home/pi/installnode.sh && sudo ./installnode.sh
+        sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/all_versions/installnode.sh && sudo chmod +x /home/pi/installnode.sh && sudo ./installnode.sh
         sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/all_versions/overlay.sh && sudo chmod +x /home/pi/overlay.sh && sudo ./overlay.sh
         sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v3.06/installinputsdriver.sh && sudo chmod +x /home/pi/installinputsdriver.sh && sudo ./installinputsdriver.sh
         sudo wget -N https://raw.githubusercontent.com/retrobox/console-modules/master/v3.06/installdisplaydriver.sh && sudo chmod +x /home/pi/installdisplaydriver.sh && sudo ./installdisplaydriver.sh
